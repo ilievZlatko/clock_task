@@ -1,0 +1,66 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body,
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background-color: #1abc9c;
+}
+
+.clock {
+	width: 300px;
+	height: 300px;
+	background: #fff url(../img/clock-face.png) no-repeat center;
+	border-radius: 50%;
+	background-size: 90%;
+	box-sizing: border-box;
+	position: relative;
+	z-index: 100;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.clock:before {
+	background: crimson;
+	content: '';
+	width: 5%;
+	height: 5%;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 10;
+}
+
+.clock_base {
+	background: #95a5a6;
+	width: 330px;
+	height: 330px;
+	content: '';
+	position: absolute;
+	border-radius: 50%;
+	border: 1px solid #7f8c8d;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.hours-container,
+.minutes-container,
+.seconds-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+/** Place your code below */
