@@ -1,5 +1,7 @@
 # Clock Task (HTML and CSS only)
 
+![alt text](https://github.com/ilievZlatko/clock_task/blob/master/Screenshot.png)
+
 The goal is to create analogue clock and make it work.
 You are allowed to use only CSS and HTML to solve this task.
 Usually just writing some additional css in app.css file should do.
